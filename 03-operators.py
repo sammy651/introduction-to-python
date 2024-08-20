@@ -10,12 +10,17 @@ print("Addition: ", 1 + 2)
 print("Subtraction: ", 1 - 2)
 print("Multiplication: ", 1 * 2)
 print("Division: ", 1 / 2)
+print("Modulus: ", 11 % 4) # Returns the remainder
 
 # 2. Assignment Operators - they are used to assign values to variables
 a = 1
 b = 2
 c = a + b
+first_name = "Samuel"
+last_name = "Owusu"
+
 print("Assignment: ", c)
+print("Full name: ", first_name + " " + last_name)
 
 # 3. Comparison Operators - they are used to compare two value. They return True or False
 a = 1
@@ -31,6 +36,7 @@ print("a not equal to b: ", a != b)
 print("a and b: ", a and b)
 print("a or b: ", a or b)
 
+# Unique to Python
 # 5. Identity Operators - they are used to check if two objects are identical
 a = 1
 b = 2
@@ -43,8 +49,8 @@ print("1 in a: ", 1 in a)
 print("4 in a: ", 4 in a)
 
 # 7. Bitwise Operators - they are used to perform bitwise operations. Bitwise operations are used to perform operations on binary numbers. They return True or False
-a = 1
-b = 2
+a = 10
+b = 20
 print("a & b: ", a & b) # AND
 print("a | b: ", a | b) # OR
 print("a ^ b: ", a ^ b) # XOR
